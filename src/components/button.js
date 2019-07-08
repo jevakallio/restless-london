@@ -32,6 +32,7 @@ const Text = styled.span`
   display: block;
   font-family: ${fonts.title};
   font-size: 1.5rem;
+  line-height: 1.5rem;
 `;
 
 const Button = ({ target, children, inverse }) => (

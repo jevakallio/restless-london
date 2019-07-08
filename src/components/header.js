@@ -38,7 +38,7 @@ const Subtitle = styled.div`
   font-family: ${fonts.heading};
   font-size: 1.2rem;
   color: ${colors.white};
-  margin-top: 20px;
+  margin-top: 10px;
 `;
 
 const Header = ({ siteTitle }) => (
