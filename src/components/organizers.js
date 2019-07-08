@@ -8,6 +8,6 @@ export default () => (
   <div>
     <Speaker name="Jani Eväkallio" twitter="@jevakallio" image={imgJani} />
     <Speaker name="Brooke Paske" twitter="@brookepaske" image={imgBrooke} />
-    <Speaker name="Rober Haritonov" twitter="@operatino" image={imgRobert} />
+    <Speaker name="Robert Haritonov" twitter="@operatino" image={imgRobert} />
   </div>
 );
