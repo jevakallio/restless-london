@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default {
-  doors: "6:30pm",
+  doors: "6:00pm",
   start: "7:00pm",
   end: "9:00pm",
   date: "Thursday, August 8",
@@ -11,5 +11,6 @@ export default {
   maps: "https://goo.gl/maps/h7WKXbKEqEdoAcrM6",
   amenities: "Food and drink, including vegetarian and non-alcoholic, provided.",
   audience: "Anyone interested in GraphQL. Some talks may require previous knowledge about the topic, but everyone is welcome!",
-  description: ""
+  description: "",
+  signup: "https://www.eventbrite.co.uk/e/restless-london-1-a-graphql-meetup-tickets-64971643936"
 };

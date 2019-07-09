@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { colors, fonts, breakpoints } from '../theme';
+import event from '../data/event';
 import Button from './button';
 const Wrapper = styled.div`
   background-color: ${colors.accentDark};
@@ -47,12 +48,12 @@ const Lift = () => {
       <Content>
         <Section>
           <Text>
-          <b>Thursday, August 8th, 7PM</b><br />
-          Monzo, 38 Finsbury Square, EC2A 1PX
+          <b>Thursday, August 8th, 6PM</b><br />
+          Monzo, 35 Wilson St, EC2A 2ER
           </Text>
         </Section>
         <Section >
-          <Button inverse target="https://www.eventbrite.com/">
+          <Button inverse target={event.signup}>
             Sign up
           </Button>
         </Section>

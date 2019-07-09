@@ -17,13 +17,13 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Section title="Next event">
       <EventDetails event={event} />
-      <Button  target="https://www.eventbrite.com/">
+      <Button  target={event.signup}>
         RSVP on EventBrite
       </Button>
     </Section>
     <Section title="Talks">
       { talks.map(talk => <Talk {...talk} />) }
-      <Button  target="https://www.eventbrite.com/">
+      <Button  target={event.signup}>
         RSVP on EventBrite
       </Button>
     </Section>
