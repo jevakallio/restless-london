@@ -33,8 +33,8 @@ export default [
       }
     ],
     synopsis: <>
-      <p><a href="https://formidable.com/open-source/urql/" target="_blank">urql</a> is a lightweight, batteries-included GraphQL library that aims to make interfacing with GraphQL servers easy, without sacrificing flexibility as your app grows.</p>
-      <p>In this talk, Phil, urql's core maintainer, explains why urql (or something like it) needs to exist, and what sets it apart from other libraries such as Apollo and Relay.</p>
+      <p><a href="https://formidable.com/open-source/urql/" target="_blank">Urql</a> is a lightweight, batteries-included GraphQL client library that aims to make interfacing with GraphQL servers easy, without sacrificing flexibility as your app grows.</p>
+      <p>Even the oldest GraphQL libraries are only a few years old, and we haven't found the optimal solutions, yet. In this talk, Phil, one of urql's core contributors, explains what sets it apart from other libraries such as Apollo and Relay, and how urql can foster experimentation across the entire GraphQL client community.</p>
     </>
   },
 
