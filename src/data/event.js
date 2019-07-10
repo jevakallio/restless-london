@@ -12,5 +12,7 @@ export default {
   amenities: "Food and drink, including vegetarian and non-alcoholic, provided.",
   audience: "Anyone interested in GraphQL. Some talks may require previous knowledge about the topic, but everyone is welcome!",
   description: "",
-  signup: "https://www.eventbrite.co.uk/e/restless-london-1-a-graphql-meetup-tickets-64971643936"
+  signup: "https://www.eventbrite.co.uk/e/restless-london-1-a-graphql-meetup-tickets-64971643936",
+  shortCta: "Join waitlist",
+  longCta: "Join waitlist"
 };

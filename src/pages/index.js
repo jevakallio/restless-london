@@ -18,13 +18,13 @@ const IndexPage = () => (
     <Section title="Next event">
       <EventDetails event={event} />
       <Button  target={event.signup}>
-        RSVP on EventBrite
+        {event.longCta}
       </Button>
     </Section>
     <Section title="Talks">
       { talks.map(talk => <Talk {...talk} />) }
       <Button  target={event.signup}>
-        RSVP on EventBrite
+        {event.longCta}
       </Button>
     </Section>
     <Section title="Code of Conduct">

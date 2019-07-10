@@ -54,7 +54,7 @@ const Lift = () => {
         </Section>
         <Section >
           <Button inverse target={event.signup}>
-            Sign up
+            {event.shortCta}
           </Button>
         </Section>
       </Content>
