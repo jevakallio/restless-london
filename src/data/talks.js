@@ -1,5 +1,6 @@
 import React from  'react';
-import imgBaxley from '../images/speakers/james-baxley.png';
+//import imgBaxley from '../images/speakers/james-baxley.png';
+import imgGuillaume from '../images/speakers/guillaume-scheibel.png';
 import imgPhil from '../images/speakers/phil-pluckthun.jpg';
 import imgMichelle from '../images/speakers/michelle-garrett.jpg';
 import imgFaduma from '../images/speakers/faduma-faracalag.png';
@@ -7,21 +8,21 @@ import { fonts } from '../theme';
 
 // yes I know this is not how you gatsby but i don't care
 export default [
-  {
-    title: "Apollo Schema Federation",
-    speakers: [
-      {
-        name: "James Baxley",
-        twitter: "@jbaxleyiii",
-        image: imgBaxley,
-        shortBio: "Engineering Manager @ Apollo"
-      }
-    ],
-    synopsis: <>
-      <p>GraphQL allows organizations to expose their data in a single graph, instead of as independent endpoints that require clients to be aware of service boundaries and to follow relationships between entities manually. Defining and deploying your data graph in a monolithic schema doesn’t scale however.</p>
-      <p>As GraphQL adoption within an organization grows, schema design shifts from being a single team responsibility to being an organization-wide concern. In this talk, I will introduce Apollo schema federation which is the evolution of schema stitching.</p>
-    </>
-  },
+  // {
+  //   title: "Apollo Schema Federation",
+  //   speakers: [
+  //     {
+  //       name: "James Baxley",
+  //       twitter: "@jbaxleyiii",
+  //       image: imgBaxley,
+  //       shortBio: "Engineering Manager @ Apollo"
+  //     }
+  //   ],
+  //   synopsis: <>
+  //     <p>GraphQL allows organizations to expose their data in a single graph, instead of as independent endpoints that require clients to be aware of service boundaries and to follow relationships between entities manually. Defining and deploying your data graph in a monolithic schema doesn’t scale however.</p>
+  //     <p>As GraphQL adoption within an organization grows, schema design shifts from being a single team responsibility to being an organization-wide concern. In this talk, I will introduce Apollo schema federation which is the evolution of schema stitching.</p>
+  //   </>
+  // },
   {
     title: "Making of URQL",
     speakers: [
@@ -62,6 +63,20 @@ export default [
       <p>You'll leave with an understanding of the challenges involved in scaling a GraphQL API beyond a single consumer, and an idea of how to transition your architecture to support this.</p>
     </>
   },
-
-
+    {
+    title: "Migrate your APIs to GraphQL: How? And Why!",
+    speakers: [
+      {
+        name: "Guillaume Scheibel",
+        twitter: "@g_scheibel",
+        image: imgGuillaume,
+        shortBio: "Software Developer @ Expedia"
+      }
+    ],
+    synopsis: <>
+    <p>Expedia deploys its APIs to power native mobile apps, web sites, and conversational platforms (such as Alexa). With dozens of REST APIs, the endpoints eventually became inconsistent, such as how to represent a price or a date, or in terms of style, with usages of query parameters and payloads.</p>
+    <p>One of the side effects of this inconsistency is that teams using those APIs spend too much time maintaining different styles of endpoints, which is time not used to develop new features for the end customer.</p>
+    <p>During this presentation we'll see how Expedia leverages GraphQL (schema and language) to improve its APIs functionally and technically.</p>
+    </>
+  },
 ]
