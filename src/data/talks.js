@@ -1,82 +1,56 @@
 import React from  'react';
-//import imgBaxley from '../images/speakers/james-baxley.png';
-import imgGuillaume from '../images/speakers/guillaume-scheibel.png';
-import imgPhil from '../images/speakers/phil-pluckthun.jpg';
-import imgMichelle from '../images/speakers/michelle-garrett.jpg';
-import imgFaduma from '../images/speakers/faduma-faracalag.png';
-import { fonts } from '../theme';
+import imgKylie from '../images/speakers/kylie.jpg';
+import imgRyan from '../images/speakers/ryan.jpg';
+import imgMatt from '../images/speakers/matt.jpg';
 
 // yes I know this is not how you gatsby but i don't care
 export default [
-  // {
-  //   title: "Apollo Schema Federation",
-  //   speakers: [
-  //     {
-  //       name: "James Baxley",
-  //       twitter: "@jbaxleyiii",
-  //       image: imgBaxley,
-  //       shortBio: "Engineering Manager @ Apollo"
-  //     }
-  //   ],
-  //   synopsis: <>
-  //     <p>GraphQL allows organizations to expose their data in a single graph, instead of as independent endpoints that require clients to be aware of service boundaries and to follow relationships between entities manually. Defining and deploying your data graph in a monolithic schema doesn’t scale however.</p>
-  //     <p>As GraphQL adoption within an organization grows, schema design shifts from being a single team responsibility to being an organization-wide concern. In this talk, I will introduce Apollo schema federation which is the evolution of schema stitching.</p>
-  //   </>
-  // },
   {
-    title: "Making of URQL",
+    title: "Demystifying urql & urql-devtools",
     speakers: [
       {
-        name: "Phil Pluckthun",
-        twitter: "@_philpl",
-        image: imgPhil,
-        shortBio: "Technology Lead @ Formidable London"
+        name: "Kylie Stewart",
+        twitter: "@kyliestew",
+        image: imgKylie,
+        shortBio: "Software Engineer @ Formidable"
       }
     ],
     synopsis: <>
-      <p><a href="https://formidable.com/open-source/urql/" target="_blank">Urql</a> is a lightweight, batteries-included GraphQL client library that aims to make interfacing with GraphQL servers easy, without sacrificing flexibility as your app grows.</p>
-      <p>Even the oldest GraphQL libraries are only a few years old, and we haven't found the optimal solutions, yet. In this talk, Phil, one of urql's core contributors, explains what sets it apart from other libraries such as Apollo and Relay, and how urql can foster experimentation across the entire GraphQL client community.</p>
+      <p><a href="https://formidable.com/open-source/urql/" target="_blank">urql</a> is a lightweight, batteries-included GraphQL client library that aims to make interfacing with GraphQL servers easy, without sacrificing flexibility as your app grows.</p>
+      <p>In this talk you'll learn what urql and its devtools are all about and how the devtools can help you investigate what's happening in your GraphQL app.</p>
     </>
   },
 
     {
-    title: "Scaling GraphQL Beyond a Backend for Frontend",
+    title: "Tightening the Full-Stack Development Loop with Nexus & Prisma",
     speakers: [
       {
-        name: "Michelle Garrett",
-        twitter: "@msmichellegar",
-        image: imgMichelle,
-        shortBio: "Condé Nast"
-      },
-
-      {
-        name: "Faduma Faralacag",
-        twitter: "@FadumaFaralacag",
-        image: imgFaduma,
-        shortBio: "Condé Nast"
+        name: "Ryan Chenkie",
+        twitter: "@ryanchenkie",
+        image: imgRyan,
+        shortBio: "DevRel @ Prisma"
       }
     ],
     synopsis: <>
-      <p style={{ fontFamily: fonts.heading }}><i>Michelle and Faduma are Software Engineers at Condé Nast, building a (very high fashion) GraphQL API to serve content for brands like Vogue and GQ. They share a passion for GraphQL, JavaScript, lipstick and Beyoncé.</i></p>
-      <p>What happens when the GraphQL layer you built as a Backend For Frontend (BFF) now needs to serve multiple consumers? How do you scale your GraphQL API beyond a single consumer, and abstract effectively to serve all your clients’ data needs?</p>
-      <p>This talk will share the experience of transitioning a BFF GraphQL API into a more generic schema, navigating the tension between building something client-specific and client-agnostic. It’ll evaluate the best strategies for consuming a shared GraphQL API without compromising on client-specific concerns and data needs.</p>
-      <p>You'll leave with an understanding of the challenges involved in scaling a GraphQL API beyond a single consumer, and an idea of how to transition your architecture to support this.</p>
+      <p>
+        Developing a real-world full-stack app often involves tedious threading of data across multiple layers of the stack.
+        This is particularly undesirable during prototyping phases where the main goal may be just to demonstrate an idea or design.
+        It’s also risky when going to production since data inconsistencies between the layers can lead to bugs.
+        We show one solution to this velocity and type-safety dilemma via Nexus combined with Prisma.
+      </p>
     </>
   },
     {
-    title: "Migrate your APIs to GraphQL: How? And Why!",
+    title: "Addressing the N+1 Problem",
     speakers: [
       {
-        name: "Guillaume Scheibel",
-        twitter: "@g_scheibel",
-        image: imgGuillaume,
-        shortBio: "Software Developer @ Expedia"
+        name: "Matt Hooper",
+        image: imgMatt,
+        shortBio: "Frontend Developer @ Ombud"
       }
     ],
     synopsis: <>
-    <p>Expedia deploys its APIs to power native mobile apps, web sites, and conversational platforms (such as Alexa). With dozens of REST APIs, the endpoints eventually became inconsistent, such as how to represent a price or a date, or in terms of style, with usages of query parameters and payloads.</p>
-    <p>One of the side effects of this inconsistency is that teams using those APIs spend too much time maintaining different styles of endpoints, which is time not used to develop new features for the end customer.</p>
-    <p>During this presentation we'll see how Expedia leverages GraphQL (schema and language) to improve its APIs functionally and technically.</p>
+      <p>Approaches to efficiently retrieving data without over fetching or making unnecessary trips to the database.</p>
     </>
   },
 ]

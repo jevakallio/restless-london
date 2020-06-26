@@ -27,13 +27,6 @@ const IndexPage = () => (
         {event.longCta}
       </Button> */}
     </Section>
-    <Section title="Call for Papers">
-      <p>Want to speak at our future meetups?</p>
-      <p>We're interested in all topics involving GraphQL and related technologies. We want to hear from everyone, so whether you're a seasoned keynotist or just looking to give your first talk, get in touch!</p>
-      <Button  target="https://docs.google.com/forms/d/e/1FAIpQLSfUjgj_6Yp8vbBzYS2Xj2i2SYbJe0Lz3q4122MjCR3QDVSZKg/viewform?usp=sf_link">
-        Submit a talk!
-      </Button> 
-    </Section>
 
     <Section title="Code of Conduct">
       <p>
@@ -42,8 +35,8 @@ const IndexPage = () => (
       <p>
         We follow and enforce the <a href="https://berlincodeofconduct.org/" target="_blank" rel="noopener">Berlin Code of Conduct</a>.
         If you think someone violated this Code of Conduct, or you have any questions,
-        please contact <b>jani <i>at</i> formidable <i>dot</i> com</b> or speak to any
-        of the following event organisers at the venue:
+        please contact <b>uk.events@formidable.com</b> or speak to any
+        of the following event organisers:
       </p>
       <Organizers />
     </Section>

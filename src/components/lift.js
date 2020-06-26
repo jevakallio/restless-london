@@ -17,7 +17,7 @@ const Content = styled.div`
 
   @media only screen and (max-width: ${breakpoints.wide}px) {
     text-align: center;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
   }
 `;
@@ -31,7 +31,7 @@ const Section = styled.div`
 
   @media only screen and (max-width: ${breakpoints.wide}px) {
     padding: 20px 15px;
-    &:first-child { 
+    &:first-child {
       padding: 20px 15px 0px 15px;
     }
   }
@@ -48,8 +48,8 @@ const Lift = () => {
       <Content>
         <Section>
           <Text>
-          <b>Thursday, August 8th, 6PM</b><br />
-          Monzo, 35 Wilson St, EC2A 2ER
+          <b>Thursday, July 16th, 6PM</b><br />
+          Online, Worldwide, on YouTube Live
           </Text>
         </Section>
         <Section >

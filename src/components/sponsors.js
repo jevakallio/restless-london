@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { colors, fonts, breakpoints } from "../theme";
 import sponsorFormidable from '../images/sponsors/formidable.png';
-import sponsorMonzo from '../images/sponsors/monzo.png';
 
 const Wrapper = styled.header`
   display: flex;
@@ -12,7 +11,7 @@ const Wrapper = styled.header`
 
   @media only screen and (max-width: ${breakpoints.wide}px) {
     text-align: center;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
   }
 `;
@@ -35,13 +34,9 @@ const SponsorImage = styled.img`
 
 export default () => (
   <>
-  <Thanks>Thank you to our sponsors</Thanks>
   <Wrapper>
     <a href="https://formidable.com">
       <SponsorImage src={sponsorFormidable}></SponsorImage>
-    </a>
-    <a href="https://monzo.com">
-      <SponsorImage src={sponsorMonzo}></SponsorImage>
     </a>
   </Wrapper>
   </>

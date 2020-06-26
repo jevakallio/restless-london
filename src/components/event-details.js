@@ -19,7 +19,7 @@ const ContentItem = styled.div`
 
 const Row = ({ label, children }) => (
   <ContentItem>
-    <label><b>{label}:</b></label>
+    <label><b>{label}:{' '}</b></label>
     <span>{children}</span>
   </ContentItem>
 )
@@ -28,10 +28,12 @@ export default ({ event }) => (
   <Wrapper>
     {event.description}
     <Row label="Date">{event.date}</Row>
-    <Row label="Location">{event.host}, <a href={event.maps}>{event.address}</a></Row>
-    <Row label="Doors open">{event.doors}</Row>
     <Row label="First talk">{event.start}</Row>
     <Row label="Audience">{event.audience}</Row>
-    <Row label="Good to know">{event.amenities}</Row>
+    <Row label="Where">
+      Livestreamed on <a href="https://www.youtube.com/channel/UCyLA5ZW8Npg4eM4Lr7i1amA">
+        YouTube Live
+      </a>
+    </Row>
   </Wrapper>
 );
