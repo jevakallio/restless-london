@@ -6,8 +6,8 @@ import imgRobert from '../images/organizers/robert.jpg';
 
 export default () => (
   <div>
-    <Speaker name="Jani Eväkallio" twitter="@jevakallio" image={imgJani} />
-    <Speaker name="Brooke Paske" twitter="@brookepaske" image={imgBrooke} />
+    <Speaker name="Phil Pluckthun" twitter="@jevakallio" image={imgJani} />
+    <Speaker name="Amy Boyd" twitter="@brookepaske" image={imgBrooke} />
     <Speaker name="Robert Haritonov" twitter="@operatino" image={imgRobert} />
   </div>
 );
