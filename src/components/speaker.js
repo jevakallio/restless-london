@@ -27,15 +27,6 @@ const Name = styled.div`
 
 const Bio = styled.div``;
 
-const Twitter = styled.a.attrs({
-  href: props => "https://twitter.com/" + props.handle.replace('@', ''),
-  children: props => props.handle,
-  target: "_blank",
-  rel:"noopener" 
-})`
-  color: ${colors.accent};
-  font-weight: bold
-`;
 
 const Content = styled.div``;
 
@@ -44,7 +35,7 @@ const Speaker = ({ name, twitter, image, shortBio}) => {
     <Wrapper>
       <Image src={image} />
       <Content>
-        <Name>{name} <Twitter handle={twitter} /></Name>
+        <Name>{name}</Name>
         <Bio>{shortBio}</Bio>
       </Content>
     </Wrapper>

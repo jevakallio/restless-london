@@ -1,13 +1,13 @@
 import React from 'react';
 import Speaker from './speaker';
-import imgJani from '../images/organizers/jani.png';
+import imgPhil from '../images/organizers/phil.png';
+import imgAmy from '../images/organizers/amy.jpg';
 import imgBrooke from '../images/organizers/brooke.png';
-import imgRobert from '../images/organizers/robert.jpg';
 
 export default () => (
   <div>
-    <Speaker name="Phil Pluckthun" twitter="@jevakallio" image={imgJani} />
-    <Speaker name="Amy Boyd" twitter="@brookepaske" image={imgBrooke} />
-    <Speaker name="Robert Haritonov" twitter="@operatino" image={imgRobert} />
+    <Speaker name="Phil Pluckthun" image={imgPhil} />
+    <Speaker name="Amy Boyd" image={imgAmy} />
+    <Speaker name="Brooke Paske" image={imgBrooke} />
   </div>
 );
